@@ -1,0 +1,26 @@
+/*
+ * hardware.h
+ *
+ *  Created on: 6 févr. 2019
+ *      Author: 200828272
+ */
+
+#ifndef HARDWARE_H_
+#define HARDWARE_H_
+
+#include "stm32f4xx_gpio.h"
+#include "stm32f4xx_rcc.h"
+
+
+#define LED2_GPIO		GPIOC
+#define LED2_PinSource	GPIO_PinSource9
+#define LED2_Pin		GPIO_Pin_9
+#define LED3_GPIO		GPIOC
+#define LED3_PinSource	GPIO_PinSource8
+#define LED3_Pin		GPIO_Pin_8
+#define LED4_GPIO		GPIOC
+#define LED4_PinSource	GPIO_PinSource5
+#define LED4_Pin		GPIO_Pin_5
+
+
+#endif /* HARDWARE_H_ */
