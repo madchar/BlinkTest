@@ -1,7 +1,7 @@
 /*
  * hardware.h
  *
- *  Created on: 6 févr. 2019
+ *  Created on: 6 fï¿½vr. 2019
  *      Author: 200828272
  */
 
@@ -12,9 +12,9 @@
 #include "stm32f4xx_rcc.h"
 
 
-#define LED2_GPIO		GPIOC
-#define LED2_PinSource	GPIO_PinSource9
-#define LED2_Pin		GPIO_Pin_9
+#define LED2_GPIO		GPIOA
+#define LED2_PinSource	GPIO_PinSource5
+#define LED2_Pin		GPIO_Pin_5
 #define LED3_GPIO		GPIOC
 #define LED3_PinSource	GPIO_PinSource8
 #define LED3_Pin		GPIO_Pin_8
